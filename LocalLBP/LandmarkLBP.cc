@@ -120,7 +120,8 @@ int main(int argc, const char *argv[])
         myfile.close();
         cout<<"save file complete\n";
     }
-
+cout<<"\n";
+    
   // release
   free(lbp);
   cvReleaseImage(&src);
